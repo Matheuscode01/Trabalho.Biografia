@@ -1,0 +1,138 @@
+.titulo{
+  text-align: center;
+  color:DodgerBlue;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 50px;
+} 
+
+
+.biografia{
+  
+  text-align: center;
+  color:CadetBlue;
+  font-size: 40px;
+}
+
+.paragrafo{
+  
+  color:SteelBlue;
+  font-size: 25px;
+  font-family:'Courier New', Courier, monospace; 
+}
+
+.Hobbies{
+  
+  list-style:disc;
+  color:SteelBlue;
+  font-size: 20px;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.Hobbies li:hover{
+  font-weight: bolder; 
+  
+}
+
+.sub1{
+
+  color:CadetBlue;
+ font-size: 30px;
+}
+
+
+.sub2{
+  text-align: center;
+  color:CadetBlue;
+ font-size: 30px;
+}
+
+.sub3{
+
+  color:CadetBlue;
+ font-size: 30px;
+}
+
+.img{
+
+  color:DodgerBlue;
+  border-radius: 3%;
+  border: none;
+  box-shadow: 0 4px 20px black;
+ 
+}
+
+
+td.paises {
+  font-weight: bold;
+}
+
+
+
+img {
+  width: 300px; 
+  height: auto;
+  margin-right: 8px;
+  border-radius: 6px;
+   
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+  
+
+
+.link{
+  color:SteelBlue;
+  font-size: 30px;;
+
+}
+
+.paises{
+  color:SteelBlue;
+  font-size: 30px;
+}
+
+.botao{
+
+font-size: 20px ;
+color:rgb(20, 96, 99);
+background-color: rgb(71, 178, 214);
+}
+
+.frase{
+color:steelblue;
+}
+
+.tabela-container {
+  background-color: white;
+  padding: 24px;
+  margin: 30px auto;
+  border-radius: 12px;
+  max-width: 1100px;
+  box-shadow: 0 4px 20px black;
+}
+
+
+.ajuste{
+
+  height: 200px;
+  
+}
+
+.botao {
+  background-color: ightBlue   
+  color CadetBlue;                
+  padding: 12px 24px;
+  font-family:'Courier New', Courier, monospace;             
+  font-size: 18px;            
+  border: none;                   
+  border-radius: 8px;           
+  
+ 
+
+}
+
+.botao:hover {  
+  transform: scale(1.05);  
+}

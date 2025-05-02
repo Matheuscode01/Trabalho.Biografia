@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagina Biografia</title>
+  <link rel="stylesheet" href="pagina.css">
+  <script src="pagina.js"></script>
+  
+</head>
+
+<body> 
+  <style>
+    body
+    {background-color:LightBlue ;}
+  </style>
+
+ 
+  <h1 class="titulo">Matheus Henrique Ribeiro Alves</h1>
+
+  <h2 class="biografia">Biografia</h2>
+
+  <p class="paragrafo">
+    Me chamo Matheus, tenho 20 anos, moro no estado do Paraná, mais precisamente na cidade
+    de Matinhos há 7 anos, mas minha cidade natal é Paranaguá. <br>
+    Meus interesses são mais focados nos estudos, especialmente nas diversas linguagens de
+    programação, para que um dia eu possa atuar na área da programação.
+  </p>
+     
+  <button class="botao" onclick="mensagem()">Clique para ver uma mensagem!!!</button>
+
+  <div class="frase" id="mensagem" style="margin-top: 20px; font-weight: bold; font-size: 30px;"></div>
+
+  <h2 class="sub1">Meus Hobbies</h2>
+
+  <ul class="Hobbies">
+    <li>Estudar Programação</li> <br>
+    <li>Ler livros</li> <br>
+    <li>Andar de moto</li> <br>
+  </ul>
+
+  <img class="img" border="3" src="moto.jpg" alt="moto"> <br>
+
+  <h2 class="sub2">Paises que tenho vontade de conhecer</h2>
+
+  <div class="tabela-container">
+  <table class="border" border="0">
+  <tbody>
+  <tr>
+  <td class="paises">Grécia</td>
+  <td>
+  <img src="grecia.jpg">
+  <img src="grecia2.jpg" class="ajuste">
+  </td> 
+  </tr>
+  <tr>
+  <td class="paises">Japão</td>
+  <td>
+  <img src="japão.jpg">
+  <img src="japão2.jpg">
+  </td>
+  </tr>
+  <tr>
+  <td class="paises">França</td>
+  <td>
+  <img src="frança.jpg">
+  <img src="frança2.jpg" class="ajuste">
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  </div>
+
+  <h2 class="sub3">Aqui um site de meu interesse</h2>
+
+  <a class="link" id="link" href="https://plataforma.bvirtual.com.br/Acervo?search=javascript&tipoIndex=0" target="_blank">
+    - Acervo Uninter
+  </a>
+
+  <script>
+    const link = document.getElementById("link");
+
+    link.addEventListener("mouseover", function() {
+      link.style.color = "red";
+    });
+
+    link.addEventListener("mouseout", function(){
+      link.style.color = "";
+    });
+  </script>
+
+</body>
+</html>
